@@ -1,0 +1,18 @@
+English Name,Phase,Entity,Computer Guess,Computer Accuracy
+NOTICEID,tender,notice,notice,CORRECT!
+REFERENCENUMBER,tender,,notice,NO
+DATEPUBLISHED,tender,solicitation,solicitation,CORRECT!
+VALUEMIN,tender,solicitation,notice,NO
+VALUEMAX,tender,solicitation,notice,NO
+STATUS,tender,solicitation,notice,NO
+URL,tender,notice,buyer,NO
+ORG_NAME,"tender,award,contract",buyer,authority,NO
+ORG_CONTACTEMAIL,"tender,award,contract",buyer,buyer,CORRECT!
+TITLE,tender,good,good,CORRECT!
+DESCRIPTION,tender,good,good,CORRECT!
+NOTICETYPE,"tender,award,contract",notice,notice,CORRECT!
+REGION,"tender, award, contract",buyer,buyer,CORRECT!
+NOTICE_STATE,"tender,award,contract",notice,?,NO
+NOTICE_STATE_CHANGE_DATE,"tender,award,contract",notice,notice,CORRECT!
+CLASSIFICATION,"tender,award,contract",good,buyer,NO
+NUM_DOCS,"tender,award,contract",notice,buyer,NO

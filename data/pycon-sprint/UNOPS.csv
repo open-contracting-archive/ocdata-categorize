@@ -1,0 +1,13 @@
+English Name,,Computer Guess,Entity,Computer Accuracy
+ROW_NUM,,supplier,,
+CONTRACT_NUMBER,,buyer,contract,
+PO_DT,,solicitation,contract,
+PO_DESCR,,solicitation,good,
+VENDOR_NAME,,solicitation,supplier,
+VENDOR_COUNTRY,,solicitation,supplier,
+PROJECT_COUNTRY_DESCR,,solicitation,notice,
+PO_AMOUNT_USD,,solicitation,solicitation,
+,,solicitation,notice,
+,,authority,contract,
+SPONSORS,,buyer,buyer,
+DONORS,,authority,authority,

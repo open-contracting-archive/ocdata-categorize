@@ -1,0 +1,26 @@
+English Name,Phase,Entity,Computer Guess,Computer Accuracy
+language,,?,?,CORRECT!
+procurement_entity_name,"tender, award, contract",authority,authority,CORRECT!
+title,"tender, award, contract",good,good,CORRECT!
+reference_number,tender,notice,notice,CORRECT!
+solicitation_number,"tender, award",solicitation,solicitation,CORRECT!
+contract_sequence_number,contract,contract,contract,CORRECT!
+contract_number,contract,contract,notice,NO
+publishing_status,tender,solicitation,solicitation,CORRECT!
+award_date,contract,contract,contract,CORRECT!
+publication_date,tender,notice,notice,CORRECT!
+amendment_date,tender,notice,notice,CORRECT!
+gsin,"tender, award, contract",good,good,CORRECT!
+contract_award_procedure,tender,solicitation,solicitation,CORRECT!
+tendering_procedure,tender,solicitation,solicitation,CORRECT!
+procurement_entity,"tender, award, contract",authority,authority,CORRECT!
+end_user_entity,"tender, award, contract",buyer,buyer,CORRECT!
+customer_info,"tender, award, contract",buyer,buyer,CORRECT!
+description,"tender, award, contract",good,good,CORRECT!
+supplier_info,"award, contract",supplier,buyer,NO
+currency,tender,solicitation,,
+,award,notice,,
+,contract,contract,contract,CORRECT!
+contract_value,tender,solicitation,,
+,award,notice,,
+,contract,contract,contract,CORRECT!

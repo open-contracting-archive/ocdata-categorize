@@ -25,15 +25,15 @@ def gen_string_pairs(string, max_len=2):
          ('co', 'ntractemail')]
 
         > list( gen_pairs('noticeid') )
-        [('noti', 'ceid'), 
-         ('notic', 'eid'), 
-         ('notice', 'id'), 
-         ('noti', 'ceid'), 
-         ('not', 'iceid'), 
+        [('noti', 'ceid'),
+         ('notic', 'eid'),
+         ('notice', 'id'),
+         ('noti', 'ceid'),
+         ('not', 'iceid'),
          ('no', 'ticeid')]
 
         > list( gen_pairs('org') )
-        [('o', 'rg'), 
+        [('o', 'rg'),
          ('or', 'g')]
     """
     sz = len(string)
@@ -58,7 +58,7 @@ def find_two_words(string):
     """
     Finds two words in a string, or its best guess of those words.
 
-    Returns a 2-tuple of, ie: (left, right) or None if there are no known words 
+    Returns a 2-tuple of, ie: (left, right) or None if there are no known words
     (relatively rare actually, since 'o' is technically a word, for instance)
 
     Examples:
@@ -130,25 +130,25 @@ def split_words(string):
         ## If it's not a word, well we don't care about it.
         if not re.match('[a-z]+', sub):
             continue
-        
+
         syns = wn.synsets(sub)
-        
+
         ## If it is a word, yay!
         if syns:
             for x in syns:
                 results.add( x.name )
-        
+
         ## If it's not a word, but it's 3 or less letters it's probably not two words, so just yield that.
         elif len(sub) <= 3:
             results.add( sub )
-        
+
         ## Otherwise let's try to split it into two words
         else:
             pair = find_two_words(sub)
             if pair:
                 results.update( pair[0] )
                 results.update( pair[1] )
-            
+
             ## No dice, okay well let's just yield it
             else:
                 results.add( sub )
@@ -167,7 +167,7 @@ def likeness(a, b):
 def subsetness(a, b):
     """
     Returns how much a is in b as a coefficient, 0 - 1.
-    
+
     0: a is not in b at all.
     1: all of the items in a are in b as well.
     """

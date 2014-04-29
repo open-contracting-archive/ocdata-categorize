@@ -1,0 +1,43 @@
+English Name,,Computer Guess,Entity,Computer Accuracy,,,
+GOVERNMENT,,?,buyer,NO,,,
+ACRONYMS,,?,buyer,NO,,,
+UNIT,,?,buyer,NO,,,
+CompraNet Unit Identifier,,?,buyer,NO,,,
+CompraNet Unit name,,authority,buyer,NO,,,
+Responsibility,,?,buyer,NO,,,
+CompraNet Record ID,,contract,contract,CORRECT!,,,
+Record Title ,,good,good,CORRECT!,,,
+Record template,,?,solicitation,NO,,,
+Procedure Number,,contract,solicitation,NO,,,
+Decision Date,,contract,solicitation,NO,,,
+RFP Date Type,,contract,solicitation,NO,,,
+Proposal Opening Date,,contract,solicitation,NO,,,
+Procedure scope,,solicitation,solicitation,CORRECT!,,,
+Contract Type,,contract,good,NO,,,
+Procedure type,,solicitation,solicitation,CORRECT!,,,
+Submission form type,,solicitation,solicitation,CORRECT!,,,
+Contract ID,,contract,contract,CORRECT!,,,
+Contract Title,,contract,good,NO,,,
+Contract start date,,contract,contract,CORRECT!,,,
+contract end date,,contract,contract,CORRECT!,,,
+contract value,,contract,contract,CORRECT!,,,
+Currency type,,contract,contract,CORRECT!,,,
+contract status,,contract,contract,CORRECT!,,,
+archive status,,solicitation,notice,NO,,,
+Unit Branch,,?,buyer,NO,,,
+Program Key,,?,?,CORRECT!,,,
+Federal contribution,,?,notice,NO,,,
+Signature date,,contract,contract,CORRECT!,,,
+Contract Framework,,authority,?,NO,In Consideration,,the company has to comply with gov framework; useful for operation in mexico
+Consolidated purchase,,?,?,CORRECT!,,,one purchase that groups many other purchases; one hospital buying supplies from different companies; if we make a big purchase we may be excluding small and medium sized companies -- have a policy to help these SMEs grow -- useful for focusing gov policy --- to counter favouring big companies
+Multi-year,,?,?,CORRECT!,,,a contract signed over many years -- most people try to make this accountable -- all medication for 30 yrs - what if this changes -- to make contracts more accountable -- multi year contracts can be risky --- contract cannot change -- signing for the price now -- 
+Unit stratification,,?,?,CORRECT!,,,not include - same as contractor stratification -- referring to company size
+Contractor Legal Name,,supplier,supplier,CORRECT!,,,
+Contractor stratification,,supplier,supplier,CORRECT!,,,
+Company state,,notice,?,NO,,,refers to phase before tender; if companies are qualified to bid
+Account manager type,,solicitation,?,NO,,,"what kind of user are you? (buyer, supplier)"
+announcement URL,,notice,"solicitation, contract, notice",NO,,,URL used to access the tender or contract information
+,,,,,,,
+,,,,,,,
+,,,,,,,tender phase should be improved in mexico
+,,,,,,,"information in the states are spread throughout the country with no common portal; different systems, with some information in some parts;"
