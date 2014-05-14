@@ -1,0 +1,18 @@
+Field,Bucket
+noticeid,SYSTEM
+referencenumber,TENDER TRACKING
+datepublished,SYSTEM
+valuemin,AMOUNT
+valuemax,AMOUNT
+status,SYSTEM
+url,SYSTEM
+org_name,BUYER
+org_contactemail,BUYER
+title,GOODS / SERVICES
+description,GOODS / SERVICES
+noticetype,SYSTEM
+region,ADD ON
+notice_state,SYSTEM
+notice_state_change_date,SYSTEM
+classification,GOODS / SERVICES
+num_docs,DOCUMENT
